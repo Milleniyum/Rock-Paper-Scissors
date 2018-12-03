@@ -9,15 +9,15 @@
 <body>
 
   <div id="game">
-    <h1>You picked: <span id="user-choice">nothing</span></h1><br>
-    <h1>The Computer picked: <span id="comp-choice">nothing</span></h1><br>
-    <h1>Wins: <span id="wins">0</span></h1><br>
-    <h1>Losses: <span id="losses">0</span></h1><br>
-    <h1>Ties: <span id="ties">0</span></h1>
+    <h1>Rock Paper Scissors! (press r, p, or s to start playing)</h1>
+    <h2>You picked: <span id="user-choice">nothing</span></h2><br>
+    <h2>The Computer picked: <span id="comp-choice">nothing</span></h2><br>
+    <h2>Wins: <span id="wins">0</span></h2><br>
+    <h2>Losses: <span id="losses">0</span></h2><br>
+    <h2>Ties: <span id="ties">0</span></h2>
   </div>
 
   <script type="text/javascript">
-    alert("Press r, p, or s to start playing")
     var computerChoices = ['r', 'p', 's'];
 
     var userChoice = document.getElementById("user-choice");
